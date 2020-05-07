@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.contenitore{
+  width: 33%;
+  height: 450px;
+  position: relative;
+  background-size: auto;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+img{
+  width: 100%;
+  height:100%
+}
+
+.price{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.green::after{
+  background-color: green;
+  content: "-30%";
+}
+
+.red::after{
+  background-color: red;
+  content: "-5%";
+}
+
+.cuore{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.contenitore:hover .cuore{
+  display: block;
+  color: red;
+}
