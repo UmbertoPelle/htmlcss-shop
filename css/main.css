@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+#globale{
+ width: 80%;
+ margin: auto;
+
+}
+
 /* contenitore generale  */
 .contenitore{
   width: 33%;
